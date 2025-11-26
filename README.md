@@ -1,7 +1,9 @@
-# java-function-implementations
+# java-interface-function
 # Exemplos de Implementação de Function em Java
 
 Este projeto contém diferentes formas de implementar a interface funcional `Function<T, R>`.
+
+Fazer um programa que, apartir de uma lista de produtos, gere uma nova lista contendo os nomes dos produtos em caixa alta.
 
 ## Versões incluídas:
 
