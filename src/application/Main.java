@@ -20,7 +20,7 @@ public class Main {
         list.add(new model.entities.Product("Tablet", 350.00));
         list.add(new model.entities.Product("HD Case", 80.90));
 
-       List<String> names = list.stream().map(Product::staticUpperCaseName).collect(Collectors.toList());
+       List<String> names = list.stream().map(Product::nonStaticUpperCaseName).collect(Collectors.toList());
        //Operação map só funciona para stream, por isso a necessidade de converter
 
         names.forEach(System.out::println);
